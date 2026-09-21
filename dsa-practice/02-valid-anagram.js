@@ -12,23 +12,24 @@ function validAnagram(s, t) {
   if (s.length !== t.length) return false;
 
   s = s.toLowerCase();
-t = t.toLowerCase();
+  t = t.toLowerCase();
 
   const count = {};
 
   for (let char of s) {
     count[char] = (count[char] || 0) + 1;
   }
-  
-  for(let char of t){
-    if(!count[char] || count[char] === 0 ){
-        return false ;
+
+  for (let char of t) {
+    if (!count[char] || count[char] === 0) {
+      return false;
     }
-    count[char] -- ;
+    count[char]--;
   }
 
-  return true ;
+  return true;
 }
 
-const s = "rat", t = "car"
+const s = "rat",
+  t = "car";
 console.log(validAnagram(s, t));
