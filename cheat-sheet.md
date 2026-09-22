@@ -11,7 +11,9 @@
 * **app.post():** A route designed to receive new data from the client (like a form submission).
 * **req.body:** The actual package of data the client sent in a POST request.
 * **app.use(express.json()):** The translator middleware that allows Express to read JSON data inside `req.body`.
-
+* **CRUD:** The 4 basic functions of persistent storage: Create (POST), Read (GET), Update (PUT), Delete (DELETE).
+* **app.put():** A route used to update or overwrite existing data.
+* **app.delete():** A route used to remove data.
 ## Git & GitHub
 * **git add .** -> Stages all my changed files to be saved.
 * **git commit -m "msg"** -> Locks in the save with a descriptive message.
