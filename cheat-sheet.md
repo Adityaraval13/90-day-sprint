@@ -14,6 +14,8 @@
 * **CRUD:** The 4 basic functions of persistent storage: Create (POST), Read (GET), Update (PUT), Delete (DELETE).
 * **app.put():** A route used to update or overwrite existing data.
 * **app.delete():** A route used to remove data.
+* **Middleware:** Functions that run *between* receiving a request and sending a response (e.g., logging, translating JSON, or checking user passwords). You use `next()` to move to the next function.
+* **Express Router:** A tool used to create modular, mountable route handlers so you can split your API across multiple files instead of cluttering `app.js`.
 ## Git & GitHub
 * **git add .** -> Stages all my changed files to be saved.
 * **git commit -m "msg"** -> Locks in the save with a descriptive message.

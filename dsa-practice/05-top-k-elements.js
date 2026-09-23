@@ -30,7 +30,6 @@ function topKFrequent(nums, k) {
   return result;
 }
 
-// Example usage:
-console.log(topKFrequent([1, 1, 1, 2, 2, 3], 2));       // [1, 2]
-console.log(topKFrequent([1], 1));                       // [1]
-console.log(topKFrequent([4, 4, 4, 4, 5, 5, 5, 6, 6], 2)); // [4, 5]
+console.log(topKFrequent([1, 1, 1, 2, 2, 3], 2));     
+console.log(topKFrequent([1], 1));                     
+console.log(topKFrequent([4, 4, 4, 4, 5, 5, 5, 6, 6], 2));
